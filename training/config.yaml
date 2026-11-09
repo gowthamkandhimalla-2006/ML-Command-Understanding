@@ -1,0 +1,11 @@
+model_name: EleutherAI/pythia-70m
+train_file: /kaggle/working/train.jsonl
+output_dir: /kaggle/working/models
+seed: 42
+learning_rate: 5.0e-05
+batch_size: 8
+epochs: 1
+max_seq_length: 256
+device: cuda
+torch_version: 2.11.0+cu130
+transformers_version: 5.20.2
